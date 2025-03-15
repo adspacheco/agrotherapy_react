@@ -14,3 +14,10 @@ https://agrotherapy-react.vercel.app/
 ## Pitch Video
 
 https://youtu.be/k3Ad-il-b7g
+
+## Rodando o Programa
+
+```bash
+npm install
+npm run dev
+```
