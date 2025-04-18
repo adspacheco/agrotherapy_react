@@ -1,122 +1,184 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&display=swap");
 
 nav {
-    height: 100px;
-    box-shadow: 0px .125rem .25rem rgba(0, 0, 0, .075);
+  height: 100px;
+  box-shadow: 0px 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
-body, .display-4 {
-    font-family: 'Urbanist', sans-serif !important;
+body,
+.display-4 {
+  font-family: "Urbanist", sans-serif !important;
 }
 
 .letter-spacing {
-    letter-spacing: 0.25em;
+  letter-spacing: 0.25em;
 }
 
 .section-height {
-    height: 490px;
+  height: 490px;
 }
 
 .section-title {
-    font-size: 2.5rem;
-    color: #28a745;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 50px;
+  font-size: 2.5rem;
+  color: #28a745;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .content-section {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .section-heading {
-    color: #28a745;
-    font-weight: bold;
-    font-size: 0.9rem;
-    letter-spacing: 2px;
+  color: #28a745;
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
 }
 
 .section-subtitle {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .section-text {
-    font-size: 1rem;
-    line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .footer-container {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-logo {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .footer-text {
-    margin: 0;
-    color: white;
+  margin: 0;
+  color: white;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    transition: transform 0.2s ease-in-out;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 991.98px) {
-    .navbar-collapse {
-        background-color: white;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        padding: 1rem;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
+  .navbar-collapse {
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .testimonials-section {
-    background: linear-gradient(135deg, #2e7d32, #28a745);
-    padding: 80px 0;
-    color: white;
-    text-align: center;
+  background: linear-gradient(135deg, #2e7d32, #28a745);
+  padding: 80px 0;
+  color: white;
+  text-align: center;
 }
 
 .testimonials-section h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 40px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 
 .testimonial-card {
-    background: white;
-    border-radius: 10px;
-    padding: 30px;
-    max-width: 600px;
-    margin: auto;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    color: black;
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  color: black;
 }
 
 .testimonial-card img {
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin-bottom: 15px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
 }
 
 .carousel-controls {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .carousel-controls button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Adições ao CSS principal - adicionar no final do arquivo src/assets/css/main.css */
+
+/* Estilos do sistema de avaliações */
+.rating-star {
+  transition: transform 0.2s;
+  font-size: 1.5rem;
+}
+
+.rating-star:hover {
+  transform: scale(1.2);
+}
+
+.rating-star .bi-star-fill {
+  font-size: 28px;
+}
+
+.rating-container {
+  margin-bottom: 1rem;
+}
+
+.rating-help {
+  color: #6c757d;
+  font-size: 0.85rem;
+}
+
+.rating-average {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.rating-item {
+  transition: transform 0.2s ease-in-out;
+}
+
+.rating-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button.rating-star:not([disabled]) {
+  cursor: pointer !important;
+  position: relative;
+}
+
+button.rating-star:not([disabled])::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #28a745;
+  transition: width 0.2s;
+}
+
+button.rating-star:not([disabled]):hover::after {
+  width: 100%;
 }

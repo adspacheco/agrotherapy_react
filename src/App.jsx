@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import GetIn from "./pages/GetIn";
+import PropertyDetail from "./pages/PropertyDetail";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/get-in" element={<GetIn />} />
+        <Route path="/property/:id" element={<PropertyDetail />} />
       </Routes>
       <Footer />
     </Router>
