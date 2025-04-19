@@ -11,9 +11,9 @@ Anderson Pacheco de Souza
 
 https://agrotherapy-react.vercel.app/
 
-## Pitch Video
+## Pitch Video - Fase 6
 
-https://youtu.be/k3Ad-il-b7g
+https://youtu.be/7uUlBGRO9qI
 
 ## Rodando o Programa
 

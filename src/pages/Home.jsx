@@ -37,7 +37,7 @@ const Home = () => {
             <div className="col-12 col-lg-6">
               <div className="ratio ratio-16x9">
                 <iframe
-                  src="https://www.youtube.com/embed/k3Ad-il-b7g?controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1"
+                  src="https://www.youtube.com/embed/7uUlBGRO9qI?controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1"
                   title="Vídeo sobre terapias rurais para desenvolvimento infantil"
                   allowFullScreen
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
