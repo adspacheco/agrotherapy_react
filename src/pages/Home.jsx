@@ -1,6 +1,5 @@
 import React from "react";
 import Testimonials from "../components/Testimonials";
-import ToastNotification from "../components/ToastNotification";
 import FeaturedProperties from "../components/FeaturedProperties";
 import background_animals from "./../assets/images/background_animals.svg";
 

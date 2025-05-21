@@ -22,6 +22,8 @@ export const AppProvider = ({ children }) => {
         description:
           "Um espaço lúdico e acolhedor onde crianças podem descobrir o mundo rural e os animais da fazenda.",
         status: "Disponível",
+        lat: -23.5203,
+        lon: -46.6332,
       },
       {
         id: 2,
@@ -30,6 +32,8 @@ export const AppProvider = ({ children }) => {
         description:
           "Especializado em terapias com cavalos, aqui crianças desenvolvem coordenação e autoconfiança.",
         status: "Em Breve",
+        lat: -23.5505,
+        lon: -46.6333,
       },
       {
         id: 3,
@@ -38,6 +42,8 @@ export const AppProvider = ({ children }) => {
         description:
           "Aqui você vai encontrar cultivo de hortas e jardins sensoriais, desenvolvendo várias habilidades.",
         status: "Em Breve",
+        lat: -23.5203,
+        lon: -46.6332,
       },
       {
         id: 4,
@@ -46,6 +52,8 @@ export const AppProvider = ({ children }) => {
         description:
           "Terapias aquáticas com a vida rural, permitindo que as crianças se desenvolvam no nosso lago.",
         status: "Em Breve",
+        lat: -23.5203,
+        lon: -46.6332,
       },
     ];
 
